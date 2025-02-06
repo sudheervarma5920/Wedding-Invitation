@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    background-color: #eee8d8 !important;
+    text-align: center !important;
+    font-family: 'Georgia', serif !important;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #800000;
+    font-size: 32px;
+}
+
+.top-image {
+    width: 150px;
+    margin: 10px 0;
+}
+
+.button-container {
+    margin: 20px 75px 20px 0px;
+    
+}
+.map{
+    padding: 0px 30px;
+    text-align: center;
+}
+.contact{
+    padding: 0px 20px;
+}
+.name{
+    font-family: var(--font-playfair), serif;;
+    font-style: italic;
+    color: #800000;
+}
+button {
+    width: 137px;
+    height: 45px;
+    border-radius: 25px !important;
+    padding: 3px;
+    background: #0b2f5b;
+    border: 4px double #fff !important;
+    box-sizing: border-box;
+    font-family: Times New Roman, Times, serif;
+    color: #fff;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    margin-bottom: 15px !important;
+}
+
+button:hover {
+    background-color: rgb(217 217 217);
+    border: 4px double #0b2f5b !important;
+    color: #0b2f5b;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.image-grid img {
+    width: 120px;
+    height: auto;
+}
+
+.downimgs {
+    text-align: left;
+}
+
+.top{
+    margin-top: 35px !important;
+}
+
+.last {
+    margin: -65px 0 0 60px;
+}
+.topimages img {
+    width:80%;
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .downimgs {
+        margin-left: 130px;
+    }
+    .downimgs img {
+        margin-right: 20px;
+    }
+    .topimages img {
+        width: 30%;
+    }
+    .downimgs img {
+        width: 25%;
+    }
+    .last {
+        margin: -20px 0 0 30px;
+    }
+    .last img {
+        width: 60%;
+    }
+    .button-container {
+        margin-left: 95px;
+    }
+}

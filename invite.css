@@ -1,0 +1,66 @@
+/* General Page Styles */
+body {
+    background-color: #f8f1e4;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Top Images */
+.top-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.left-img, .right-img {
+    width: 100px;
+    height: auto;
+}
+
+/* Ganesha Image */
+.ganesha {
+    width: 80px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Invitation Title */
+.invite-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    color: #800000;
+    margin: 10px 0;
+}
+
+/* Subtext */
+.sub-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Names */
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #800000;
+    margin: 10px 0;
+}
+
+/* Parent Details */
+.parent-text {
+    font-size: 18px;
+    color: #444;
+    margin: 5px 0;
+}
